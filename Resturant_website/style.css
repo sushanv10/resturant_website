@@ -1,0 +1,285 @@
+*{
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   border: border-box;
+   
+}
+
+
+.bg{
+
+    background-image: url(image.png);
+    border: none;
+    object-fit: cover;
+    height:100vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav-bar{
+    background-color: transparent;
+    height: 14vh;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+
+.Res-name{
+    display: flex;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -10vh;
+    margin-left: 25vh;
+
+
+}
+
+.nav-items ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+    margin-left: 80vh;
+    margin-top: -20px;
+    
+}
+
+.nav-items li{
+    margin-right: 20px;
+    
+}
+
+.nav-items a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 20px;
+    font-family: "Open Sans", sans-serif;
+    
+    
+    
+}
+
+.nav-items a:hover{
+    color: #FFBE33;
+    opacity: 60%;
+
+}
+
+#btn1{
+    background-color: #FFBE33;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20;
+    border: none;
+    margin-top: 5vh;
+    margin-left: 180vh;
+    cursor: pointer;
+}
+
+#btn1:hover{
+    opacity: 50%;
+
+}
+
+.text-content{
+   padding: 5px;
+   font-size: 18px;
+   font-weight: bold;
+   color: white;
+   margin-top: 34vh;
+   margin-left: 5vh;
+ 
+}
+
+#btn2{
+    background-color: #FFBE33;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    
+
+}
+
+#btn2:hover{
+    opacity: 50%;
+
+}
+
+
+.head{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive ;
+}
+
+.menu-items ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    margin-top: 20px;
+    margin-left: 80vh;
+
+}
+
+.menu-items li{
+    margin-right: 55px;
+
+}
+
+.menu-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive ;
+
+}
+
+.menu-items a:hover{
+    opacity: 60%;
+}
+
+.img-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+
+.menu-item {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    max-width: 50%;
+    height: auto;
+}
+
+.item-info {
+    padding: 20px;
+}
+
+.item-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.item-info p {
+    font-size: 0.875rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.item-info span {
+    display: block;
+    font-size: 1.25rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.order-btn {
+    background-color: #FFBE33;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.order-btn:hover {
+    opacity: 60%;
+}
+
+.about-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #222831;
+}
+
+.about-img{
+    position: relative;
+    height: 80vh;
+    padding: 95px;
+    margin-left: 30vh;
+}
+
+.about-heading{
+    margin-top: -80vh;
+    margin-left: 120vh;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.para{
+    color: white;
+    margin-left: 120vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.foot{
+    margin-top: 10vh;
+    background-color: #222831;
+    width: 100%;
+    height: 100vh;
+}
+
+.con{
+    color: #f8f8f8;
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive ;
+}
+
+input{
+    font-size: 18px;
+    margin-left: 82vh;
+    list-style: inherit;
+    border: none;
+    width: 350px;
+    height: 50px;
+}
+
+#btn-submit{
+    background-color: #FFBE33;
+    border: none;
+    border-radius: 10%;
+    color: black;
+    margin-left: 105vh;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#btn-submit:hover{
+    opacity: 50%;
+}
